@@ -16,6 +16,11 @@
   display: none;
 }
 
+/* Removes nameplates */
+[class*="nameplated_"] > [class^="container_"] {
+    display: none;
+}
+
 /* Removes 'super reactions' flying animations */
 /* 
 * Credits to u/yshdmt and u/maelstrom071 on Reddit

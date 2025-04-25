@@ -37,6 +37,7 @@ elements and Nitro profile effects.
 
 - Removes profile effects ([credits to u/AusheyAhmad23 on Reddit](https://www.reddit.com/r/BetterDiscord/comments/1bvbn3u/comment/ky0l6f7/))
 - Removes avatar decorations ([credits to u/lmoreloss on Reddit](https://www.reddit.com/r/BetterDiscord/comments/1bvbn3u/comment/kzxtlax/))
+- Removes nameplates decorations.
 - Removes 'super reactions' animations (credits to
   [u/yshdmt](https://www.reddit.com/r/BetterDiscord/comments/1bvbn3u/comment/l0ms1me/)
   and [u/maelstrom071](https://www.reddit.com/r/BetterDiscord/comments/1bvbn3u/comment/m7barkk/)
@@ -45,7 +46,6 @@ elements and Nitro profile effects.
 - Removes 'Avatar decoration' section from 'profiles' settings tab;
 - Removes 'Nameplate' section from 'profiles' settings tab;
 - Removes 'Profile Effect' section from 'profiles' settings tab.
-- ~~**Missing:** Remove Nameplates decorations.~~
 
 > [!TIP]
 > Use this link on your online themes settings tab on Vencord to use the snippet:
