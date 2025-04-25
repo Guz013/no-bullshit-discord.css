@@ -1,0 +1,41 @@
+/* Remove activity list */
+/*
+* This has the side-effect of removing the first role category title
+* on servers' member lists
+*/
+[aria-label="Members"] > h3:first-of-type {
+  display: none;
+}
+[aria-label="Members"] > div > div[aria-expanded="false"][role="listitem"] {
+  display: none;
+}
+
+/* Remove extra message input buttons */
+
+/* App Launcher */
+[class^="textArea_"] + [class^="buttons_"] > [class^="channelAppLauncher_"] {
+  display: none !important;
+}
+
+/* GIF button */
+[class^="textArea_"]
+  + [class^="buttons_"]
+  > .expression-picker-chat-input-button:nth-of-type(1) {
+  display: none;
+}
+
+/* Sticker button */
+[class^="textArea_"]
+  + [class^="buttons_"]
+  > .expression-picker-chat-input-button:nth-of-type(2) {
+  display: none;
+}
+
+/* Remove discover servers and download apps button from servers list */
+ul[data-list-id="guildsnav"]
+  [class^="itemsContainer_"]
+  > [class^="stack_"]
+  > [class^="listItem_"]
+  > [class^="listItemWrapper"] {
+  display: none;
+}
