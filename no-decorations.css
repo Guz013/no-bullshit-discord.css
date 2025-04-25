@@ -1,0 +1,55 @@
+/* Removes profile effects */
+/* 
+* Credits to u/AushevAhmad23 on Reddit
+* https://www.reddit.com/r/BetterDiscord/comments/1bvbn3u/comment/ky0l6f7/
+*/
+[class^="profileEffects"] {
+  display: none;
+}
+
+/* Removes avatar decorations */
+/* 
+* Credits to u/lmoreloss on Reddit
+* https://www.reddit.com/r/BetterDiscord/comments/1bvbn3u/comment/kzxtlax/
+*/
+[class^="avatarDecoration"] {
+  display: none;
+}
+
+/* Removes 'super reactions' flying animations */
+/* 
+* Credits to u/yshdmt and u/maelstrom071 on Reddit
+* https://www.reddit.com/r/BetterDiscord/comments/1bvbn3u/comment/l0ms1me/
+* https://www.reddit.com/r/BetterDiscord/comments/1bvbn3u/comment/m7barkk/
+*/
+[class^="effect_"],
+[class^="effectsWrapper_"] {
+  display: none;
+}
+
+[class*="hideEmoji_"] {
+  opacity: 1 !important;
+}
+
+[class^="reaction_"],
+[class*="shakeReaction_"] {
+  animation: none !important;
+}
+
+/* Removes 'Avatar decoration' section from 'profiles' settings tab */
+[class^="sectionsContainer_"]
+  > [class^="customizationSection_"]:nth-of-type(4) {
+  display: none;
+}
+
+/* Removes 'Nameplate' section from 'profiles' settings tab */
+[class^="sectionsContainer_"]
+  > [class^="customizationSection_"]:nth-of-type(5) {
+  display: none;
+}
+
+/* Removes 'Profile Effect' section from 'profiles' settings tab */
+[class^="sectionsContainer_"]
+  > [class^="customizationSection_"]:nth-of-type(6) {
+  display: none;
+}
