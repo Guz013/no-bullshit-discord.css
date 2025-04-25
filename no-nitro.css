@@ -1,0 +1,41 @@
+/* Removes send a gift button */
+[class^="textArea_"] + [class^="buttons_"] > button[aria-haspopup="dialog"] {
+  display: none;
+}
+
+/* Removes Nitro button on friends list */
+[data-list-id^="private-channels"] [data-list-item-id*="nitro"] {
+  display: none;
+}
+
+/* Removes Shop button on friends list */
+[data-list-id^="private-channels"] [data-list-item-id*="shop"] {
+  display: none;
+}
+
+/* Removes Nitro tab from settings */
+[class^="side_"] > [class^="premiumTab_"] {
+  display: none;
+}
+
+/* Removes "level up with nitro" banner */
+[class^="upsellContainer_"] {
+  display: none;
+}
+
+/* Removes Nitro preview from profiles settings tab */
+[class^="premiumFeatureBorder_"] {
+  display: none;
+}
+
+/* Removes 'Create your dream look' banner from profiles settings tab */
+[class^="contentColumn_"] > [class^="container_"] > [class^="artContainer_"],
+[class^="contentColumn_"] > [class^="container_"] > [class^="mainColumn_"],
+[class^="contentColumn_"] > [class^="container_"] > button {
+  display: none;
+}
+
+/* Removes 'Make unique profiles for each server' section from profiles settings tab */
+[class^="upsellOverlayContainer"] {
+  display: none;
+}
